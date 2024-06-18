@@ -1,0 +1,34 @@
+:root {
+  --background: linear-gradient(90deg, #9d17b1, #22348d);
+  --primary: #9d17b1;
+  --secondary: #313131;
+  --white: #fff;
+  --black: #000;
+  --grey: #f2f2f2;
+  --text: #fff;
+  --text-light: #f2f2f2;
+  --text-dark: #525252;
+  --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+  --border-radius: 10px;
+  --border-radius-sm: 5px;
+  --border-radius-lg: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
